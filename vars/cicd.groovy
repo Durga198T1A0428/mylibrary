@@ -5,4 +5,7 @@ def gitdownload(repo)
 def build()
 {
   sh "mvn package"
-}  
+}
+def deploy(jobname,ip,context)
+{
+  
